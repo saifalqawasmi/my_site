@@ -1,0 +1,18 @@
+
+body {
+   background-color: skyblue;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid red;
+}
+
+.my_img {
+   
+}
+
+img {
+}
