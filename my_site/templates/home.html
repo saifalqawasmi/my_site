@@ -1,26 +1,37 @@
 {% load static %}
-
 <!DOCTYPE html>
-<html>
-
 <head>
-   <link rel="stylesheet" href="{% static 'body.css' %}">
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Saif Al-Qawasmi</title>
+      <link rel="stylesheet" href="{% static 'body.css' %}">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Saif Al-Qawasni</title>
 </head>
-
-<body>
-   <div class="container">
-      <div class="my_img">
-         <img src=" {% static 'my_img.jpg' %}">
-      </div>
-      <div class="my_name">
-         <h1>Saif Al-Qawasmi</h1>
-         <a href="#">projects i made</a>
-      </div>
-   </div>
+<body class="main-content">
+      <header class="container header active" id="home">
+         <div class="header-content">
+            <div class="left-header">
+               <div class="h-shape"></div>
+               <div class="my_img">
+                  <img src="{% static 'my_img.jpg' %}">
+               </div>
+            </div>
+            <div class="right-header">
+               <h1 class="name">
+                  HELLO, I'M <span>Saif Al-Qawasmi.</span>
+               </h1>
+               <p>
+                  I'm a Web Developer, I love to create beautiful and functional websites.
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, libero?
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque blanditiis sed aut!
+               </p>
+               <div class="btn-con">
+                  <a href="#" class="main-btn">
+                     <span class="btn-text">projects i made</span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </header>
 </body>
-
 </html>
